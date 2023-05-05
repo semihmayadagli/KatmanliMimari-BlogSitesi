@@ -1,0 +1,255 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\semih\\OneDrive\\Masaüstü\\ASP.Net Mvc\\97-HaftalikGorev\\HaftalikGorev-KatmanliBlog\\P013KatmanliBlog\\P013KatmanliBlogMVCUI\\P013KatmanliBlogMVCUI.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\semih\\OneDrive\\Masaüstü\\ASP.Net Mvc\\97-HaftalikGorev\\HaftalikGorev-KatmanliBlog\\P013KatmanliBlog\\P013KatmanliBlog.Core\\P013KatmanliBlog.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\semih\\OneDrive\\Masaüstü\\ASP.Net Mvc\\97-HaftalikGorev\\HaftalikGorev-KatmanliBlog\\P013KatmanliBlog\\P013KatmanliBlog.Core\\P013KatmanliBlog.Core.csproj",
+        "projectName": "P013KatmanliBlog.Core",
+        "projectPath": "C:\\Users\\semih\\OneDrive\\Masaüstü\\ASP.Net Mvc\\97-HaftalikGorev\\HaftalikGorev-KatmanliBlog\\P013KatmanliBlog\\P013KatmanliBlog.Core\\P013KatmanliBlog.Core.csproj",
+        "packagesPath": "C:\\Users\\semih\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\semih\\OneDrive\\Masaüstü\\ASP.Net Mvc\\97-HaftalikGorev\\HaftalikGorev-KatmanliBlog\\P013KatmanliBlog\\P013KatmanliBlog.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\semih\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\semih\\OneDrive\\Masaüstü\\ASP.Net Mvc\\97-HaftalikGorev\\HaftalikGorev-KatmanliBlog\\P013KatmanliBlog\\P013KatmanliBlog.Data\\P013KatmanliBlog.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\semih\\OneDrive\\Masaüstü\\ASP.Net Mvc\\97-HaftalikGorev\\HaftalikGorev-KatmanliBlog\\P013KatmanliBlog\\P013KatmanliBlog.Data\\P013KatmanliBlog.Data.csproj",
+        "projectName": "P013KatmanliBlog.Data",
+        "projectPath": "C:\\Users\\semih\\OneDrive\\Masaüstü\\ASP.Net Mvc\\97-HaftalikGorev\\HaftalikGorev-KatmanliBlog\\P013KatmanliBlog\\P013KatmanliBlog.Data\\P013KatmanliBlog.Data.csproj",
+        "packagesPath": "C:\\Users\\semih\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\semih\\OneDrive\\Masaüstü\\ASP.Net Mvc\\97-HaftalikGorev\\HaftalikGorev-KatmanliBlog\\P013KatmanliBlog\\P013KatmanliBlog.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\semih\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\semih\\OneDrive\\Masaüstü\\ASP.Net Mvc\\97-HaftalikGorev\\HaftalikGorev-KatmanliBlog\\P013KatmanliBlog\\P013KatmanliBlog.Core\\P013KatmanliBlog.Core.csproj": {
+                "projectPath": "C:\\Users\\semih\\OneDrive\\Masaüstü\\ASP.Net Mvc\\97-HaftalikGorev\\HaftalikGorev-KatmanliBlog\\P013KatmanliBlog\\P013KatmanliBlog.Core\\P013KatmanliBlog.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.0-preview.3.23174.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.0-preview.3.23174.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\semih\\OneDrive\\Masaüstü\\ASP.Net Mvc\\97-HaftalikGorev\\HaftalikGorev-KatmanliBlog\\P013KatmanliBlog\\P013KatmanliBlog.Service\\P013KatmanliBlog.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\semih\\OneDrive\\Masaüstü\\ASP.Net Mvc\\97-HaftalikGorev\\HaftalikGorev-KatmanliBlog\\P013KatmanliBlog\\P013KatmanliBlog.Service\\P013KatmanliBlog.Service.csproj",
+        "projectName": "P013KatmanliBlog.Service",
+        "projectPath": "C:\\Users\\semih\\OneDrive\\Masaüstü\\ASP.Net Mvc\\97-HaftalikGorev\\HaftalikGorev-KatmanliBlog\\P013KatmanliBlog\\P013KatmanliBlog.Service\\P013KatmanliBlog.Service.csproj",
+        "packagesPath": "C:\\Users\\semih\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\semih\\OneDrive\\Masaüstü\\ASP.Net Mvc\\97-HaftalikGorev\\HaftalikGorev-KatmanliBlog\\P013KatmanliBlog\\P013KatmanliBlog.Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\semih\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\semih\\OneDrive\\Masaüstü\\ASP.Net Mvc\\97-HaftalikGorev\\HaftalikGorev-KatmanliBlog\\P013KatmanliBlog\\P013KatmanliBlog.Data\\P013KatmanliBlog.Data.csproj": {
+                "projectPath": "C:\\Users\\semih\\OneDrive\\Masaüstü\\ASP.Net Mvc\\97-HaftalikGorev\\HaftalikGorev-KatmanliBlog\\P013KatmanliBlog\\P013KatmanliBlog.Data\\P013KatmanliBlog.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\semih\\OneDrive\\Masaüstü\\ASP.Net Mvc\\97-HaftalikGorev\\HaftalikGorev-KatmanliBlog\\P013KatmanliBlog\\P013KatmanliBlogMVCUI\\P013KatmanliBlogMVCUI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\semih\\OneDrive\\Masaüstü\\ASP.Net Mvc\\97-HaftalikGorev\\HaftalikGorev-KatmanliBlog\\P013KatmanliBlog\\P013KatmanliBlogMVCUI\\P013KatmanliBlogMVCUI.csproj",
+        "projectName": "P013KatmanliBlogMVCUI",
+        "projectPath": "C:\\Users\\semih\\OneDrive\\Masaüstü\\ASP.Net Mvc\\97-HaftalikGorev\\HaftalikGorev-KatmanliBlog\\P013KatmanliBlog\\P013KatmanliBlogMVCUI\\P013KatmanliBlogMVCUI.csproj",
+        "packagesPath": "C:\\Users\\semih\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\semih\\OneDrive\\Masaüstü\\ASP.Net Mvc\\97-HaftalikGorev\\HaftalikGorev-KatmanliBlog\\P013KatmanliBlog\\P013KatmanliBlogMVCUI\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\semih\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\semih\\OneDrive\\Masaüstü\\ASP.Net Mvc\\97-HaftalikGorev\\HaftalikGorev-KatmanliBlog\\P013KatmanliBlog\\P013KatmanliBlog.Service\\P013KatmanliBlog.Service.csproj": {
+                "projectPath": "C:\\Users\\semih\\OneDrive\\Masaüstü\\ASP.Net Mvc\\97-HaftalikGorev\\HaftalikGorev-KatmanliBlog\\P013KatmanliBlog\\P013KatmanliBlog.Service\\P013KatmanliBlog.Service.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
