@@ -24,7 +24,7 @@ namespace P013KatmanliBlog.Data.Abstract
 
         Task<T> FindAsync(int id);
         Task<T> GetAsync(Expression<Func<T, bool>> expression);
-        Task<T> GetAllAsync();
+        Task<List<T>> GetAllAsync();
         Task<List<T>> GetAllAsync(Expression<Func<T, bool>> expression);
         Task AddAsync(T entity);
         Task<int> SaveAsync();
